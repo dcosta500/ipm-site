@@ -1,0 +1,16 @@
+.MembersSection {
+  height: 500px;
+  background-color: cadetblue;
+}
+
+.Title {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.ProfileBarContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px 100px;
+  height: 300px;
+}

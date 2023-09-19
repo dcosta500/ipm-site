@@ -1,0 +1,15 @@
+.ProfileCard {
+  padding: 10px;
+  width: 180px;
+  align-items: center;
+  text-align: center;
+}
+
+.AvatarContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Avatar {
+  height: 50px;
+}
