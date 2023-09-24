@@ -4,7 +4,7 @@ import { Card } from "@mui/material";
 import { Box } from "@mui/material";
 
 function Profile(props) {
-  const avatarScale = 80;
+  const avatarScale = 150;
 
   const avatarStyle = { width: avatarScale, height: avatarScale };
 
@@ -18,6 +18,7 @@ function Profile(props) {
         />
       </Box>
       <Box>{props.name}</Box>
+      <Box>{props.number}</Box>
     </Card>
   );
 }

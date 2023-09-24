@@ -9,25 +9,29 @@ function MembersSection() {
   const members = [
     {
       name: "Diogo Costa",
+      number: 59893,
       img: require("../../../../assets/profilePhotos/costa_profile.jpeg"),
     },
     {
       name: "Diogo Lemos",
+      number: 56837,
       img: require("../../../../assets/profilePhotos/diogo_lemos_profile.jpg"),
     },
     {
       name: "José Trigueiro",
+      number: 58119,
       img: require("../../../../assets/profilePhotos/jose_profile.jpg"),
     },
     {
       name: "Tomás Gabriel",
+      number: 60722,
       img: require("../../../../assets/profilePhotos/pina_profile.jpeg"),
     },
   ];
 
   let gridItems = members.map((e, i) => (
     <Grid key={i} item xs={3}>
-      <Profile name={e.name} img={e.img} />
+      <Profile name={e.name} number={e.number} img={e.img} />
     </Grid>
   ));
 
