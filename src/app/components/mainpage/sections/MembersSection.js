@@ -17,7 +17,7 @@ function MembersSection() {
     },
     {
       name: "José Trigueiro",
-      img: "",
+      img: require("../../../../assets/profilePhotos/jose_profile.jpg"),
     },
     {
       name: "Tomás Gabriel",
