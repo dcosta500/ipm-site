@@ -18,6 +18,9 @@ function MembersSection() {
       img: require("../../../../assets/profilePhotos/diogo_lemos_profile.jpg"),
     },
     {
+      img: require("../../../../assets/profilePhotos/logo_temporario.png"),
+    },
+    {
       name: "José Trigueiro",
       number: 58119,
       img: require("../../../../assets/profilePhotos/jose_profile.jpg"),
@@ -30,7 +33,7 @@ function MembersSection() {
   ];
 
   let gridItems = members.map((e, i) => (
-    <Grid key={i} item xs={3}>
+    <Grid key={i} item xs={2.4}>
       <Profile name={e.name} number={e.number} img={e.img} />
     </Grid>
   ));
@@ -41,7 +44,7 @@ function MembersSection() {
         <h1>IPM 23/24</h1>
       </Box>
       <Box className="ProfileBarContainer">
-        <Grid container spacing={2}>
+        <Grid container spacing={15}>
           {gridItems}
         </Grid>
       </Box>
