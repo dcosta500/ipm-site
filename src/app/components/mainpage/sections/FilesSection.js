@@ -1,21 +1,39 @@
 import "./FilesSection.css";
+import Box from '@mui/material/Box';
+import List from '@mui/material/List';
+import Files from "../others/Files";
+import PDFIcon from '@mui/icons-material/PictureAsPdf';
 export default FilesSection;
 
 function FilesSection() {
 
+    const files = [
+        {
+            text: "Assignment 1",
+            icon: <PDFIcon/>,
+            filePath: "../../../../assets/files/G_10_stage1.pdf",
+        },
+        {
+            text: "Assignment 2",
+            icon: <PDFIcon/>,
+            filePath: "../../../../assets/files/G_10_stage2.pdf",
+        },
+     
+      ];
 
-    const openPdfInNewTab  = () => {
-        // Get the PDF.
-        const pdfUrl = '../assets/files/G_10_stage1.pdf';
-    
-        // Open the PDF in a new tab.
-        window.open(pdfUrl, '_blank');
-    };  
-    
+    let gridItems = files.map((e, i) => (
+          <Files key={i} text={e.text} icon={e.icon} filePath={e.filePath} />
+      ));
+
     return(
         <div className="FilesSection">
-            <button className="Button" onClick={openPdfInNewTab}>1st Assignment</button>
+        <Box sx={{ width: '100%', maxWidth: 200, bgcolor: 'background.paper'}}>
+            <nav aria-label="main folders">
+                <List>
+                    {gridItems}
+                </List>
+             </nav>
+        </Box>
         </div>
     );
-    
 }

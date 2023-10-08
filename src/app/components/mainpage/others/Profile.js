@@ -3,7 +3,7 @@ import { Avatar } from "@mui/material";
 import { Card } from "@mui/material";
 import { Box } from "@mui/material";
 
-function Profile(props) {
+export default function Profile(props) {
   const avatarScale = 150;
 
   const avatarStyle = { width: avatarScale, height: avatarScale };
@@ -23,4 +23,3 @@ function Profile(props) {
   );
 }
 
-export default Profile;
