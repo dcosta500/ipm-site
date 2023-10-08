@@ -3,17 +3,3 @@
     padding: 20px 850px;
     height: 500px;
   }
-
-.Button {
-    background-color: #757c85;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-  
-.Button:hover {
-    background-color: #515356;
-}

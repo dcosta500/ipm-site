@@ -3,18 +3,18 @@ import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import Files from "../others/Files";
 import PDFIcon from '@mui/icons-material/PictureAsPdf';
-export default FilesSection;
 
-function FilesSection() {
+
+export default function FilesSection() {
 
     const files = [
         {
-            text: "Assignment 1",
+            text: "Stage 1",
             icon: <PDFIcon/>,
             filePath: "../../../../assets/files/G_10_stage1.pdf",
         },
         {
-            text: "Assignment 2",
+            text: "Stage 2",
             icon: <PDFIcon/>,
             filePath: "../../../../assets/files/G_10_stage2.pdf",
         },
