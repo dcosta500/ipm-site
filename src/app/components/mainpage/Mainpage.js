@@ -6,7 +6,6 @@ function Mainpage() {
   return (
     <div>
       <MembersSection />
-      <FilesSection />
     </div>
   );
 }
