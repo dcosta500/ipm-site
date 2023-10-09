@@ -10,7 +10,7 @@ function MembersSection() {
   const [personID, setPersonId] = useState("prj");
 
   let gridItems = proj_profiles.map((e, i) => (
-    <Grid key={i} item xs={2.4}>
+    <Grid key={i} item xs={2}>
       <Profile
         name={e.name}
         id={e.id}

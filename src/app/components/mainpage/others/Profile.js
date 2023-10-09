@@ -5,7 +5,7 @@ import { Box } from "@mui/material";
 import { CardActionArea } from "@mui/material";
 
 export default function Profile(props) {
-  const avatarScale = 150;
+  const avatarScale = 110;
 
   const avatarStyle = { width: avatarScale, height: avatarScale };
 
