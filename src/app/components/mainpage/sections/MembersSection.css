@@ -11,6 +11,11 @@
 .ProfileBarContainer {
   display: flex;
   align-items: center;
-  padding: 10px 100px;
+  padding: 10px 0;
   height: 250px;
+}
+
+.GridItem {
+  display: flex;
+  justify-content: center;
 }

@@ -10,14 +10,16 @@ function MembersSection() {
   const [personID, setPersonId] = useState("prj");
 
   let gridItems = proj_profiles.map((e, i) => (
-    <Grid key={i} item xs={2}>
-      <Profile
-        name={e.name}
-        id={e.id}
-        number={e.number}
-        img={e.img}
-        setPersonId={setPersonId}
-      />
+    <Grid key={i} item xs={12 / proj_profiles.length}>
+      <Box className={"GridItem"}>
+        <Profile
+          name={e.name}
+          id={e.id}
+          number={e.number}
+          img={e.img}
+          setPersonId={setPersonId}
+        />
+      </Box>
     </Grid>
   ));
 
@@ -28,9 +30,7 @@ function MembersSection() {
           <h1>IPM 23/24</h1>
         </Box>
         <Box className="ProfileBarContainer">
-          <Grid container spacing={15}>
-            {gridItems}
-          </Grid>
+          <Grid container>{gridItems}</Grid>
         </Box>
       </div>
       <FilesSection personID={personID} />
