@@ -13,13 +13,13 @@ function MembersSection() {
       name: "Diogo Costa",
       id: "dc",
       number: 59893,
-      img: require("../../../../assets/profilePhotos/costa_profile.jpeg"),
+      img: require("../../../../assets/files/members/diogo_costa/costa_profile.jpeg"),
     },
     {
       name: "Diogo Lemos",
       id: "dl",
       number: 56837,
-      img: require("../../../../assets/profilePhotos/diogo_lemos_profile.jpg"),
+      img: require("../../../../assets/files/members/diogo_lemos/diogo_lemos_profile.jpg"),
     },
     /* {
       id: "projeto",
@@ -29,13 +29,13 @@ function MembersSection() {
       name: "José Trigueiro",
       id: "jt",
       number: 58119,
-      img: require("../../../../assets/profilePhotos/jose_profile.jpg"),
+      img: require("../../../../assets/files/members/jose_trigueiro/jose_profile.jpg"),
     },
     {
       name: "Tomás Gabriel",
       id: "tg",
       number: 60722,
-      img: require("../../../../assets/profilePhotos/pina_profile.jpeg"),
+      img: require("../../../../assets/files/members/tomas_gabriel/pina_profile.jpeg"),
     },
   ];
   const [personID, setPersonId] = useState("n/a");
