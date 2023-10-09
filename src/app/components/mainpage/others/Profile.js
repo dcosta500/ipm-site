@@ -9,10 +9,13 @@ export default function Profile(props) {
 
   const avatarStyle = { width: avatarScale, height: avatarScale };
 
+  const onClickProfileCard = () => {
+    console.log(`Setting person Id to ${props.id}`);
+    props.setPersonId(props.id);
+  };
+
   return (
-    <Card
-      className="ProfileCard" /* onClick={()=>props.setPersonId(props.id)} */
-    >
+    <Card className="ProfileCard" onClick={onClickProfileCard}>
       <CardActionArea
         sx={{
           ":hover": {
