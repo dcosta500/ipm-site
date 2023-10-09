@@ -2,6 +2,7 @@ import "./Profile.css";
 import { Avatar } from "@mui/material";
 import { Card } from "@mui/material";
 import { Box } from "@mui/material";
+import { CardActionArea } from '@mui/material';
 
 export default function Profile(props) {
   const avatarScale = 150;
@@ -9,7 +10,8 @@ export default function Profile(props) {
   const avatarStyle = { width: avatarScale, height: avatarScale };
 
   return (
-    <Card className="ProfileCard">
+    <Card className="ProfileCard" >
+      <CardActionArea sx={{":hover": { backgroundColor: 'background.primary', opacity: [0.9, 0.8, 0.7]}}}>
       <Box className="AvatarContainer">
         <Avatar
           sx={avatarStyle}
@@ -18,7 +20,7 @@ export default function Profile(props) {
         />
       </Box>
       <Box>{props.name}</Box>
-      <Box>{props.number}</Box>
+      <Box>{props.number}</Box></CardActionArea>
     </Card>
   );
 }
