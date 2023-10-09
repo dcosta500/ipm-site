@@ -1,5 +1,5 @@
 import "./Profile.css";
-import { Avatar, Button } from "@mui/material";
+import { Avatar } from "@mui/material";
 import { Card } from "@mui/material";
 import { Box } from "@mui/material";
 import { CardActionArea } from "@mui/material";
@@ -10,7 +10,6 @@ export default function Profile(props) {
   const avatarStyle = { width: avatarScale, height: avatarScale };
 
   const onClickProfileCard = () => {
-    console.log(`Setting person Id to ${props.id}`);
     props.setPersonId(props.id);
   };
 

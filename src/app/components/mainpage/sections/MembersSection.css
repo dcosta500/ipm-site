@@ -11,6 +11,6 @@
 .ProfileBarContainer {
   display: flex;
   align-items: center;
-  padding: 10px 200px;
+  padding: 10px 100px;
   height: 250px;
 }
