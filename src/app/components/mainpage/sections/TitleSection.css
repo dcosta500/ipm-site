@@ -1,0 +1,13 @@
+.TitleContainer {
+  height: 11.5rem;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  font-size: 3rem;
+  letter-spacing: 2rem;
+  color: white;
+}

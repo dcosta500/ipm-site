@@ -1,38 +1,51 @@
 import "./Profile.css";
-import { Avatar } from "@mui/material";
+import { Avatar, Button } from "@mui/material";
 import { Card } from "@mui/material";
 import { Box } from "@mui/material";
 import { CardActionArea } from "@mui/material";
 
+// Props: id, name, number, img
 export default function Profile(props) {
-  const avatarScale = 110;
+  const avatarScale = "10.44rem";
 
-  const avatarStyle = { width: avatarScale, height: avatarScale };
+  const avatarStyle = {
+    width: avatarScale,
+    height: avatarScale,
+    position: "relative",
+    bottom: "5.2rem",
+    boxShadow: "0px 5px 5px 0px rgba(0,0,0,0.5)",
+  };
+
+  const buttonStyle = {
+    fontWeight: "bold",
+    backgroundColor: "cadetblue",
+    position: "relative",
+    top: "2.8rem",
+    borderRadius: "1.31rem",
+  };
 
   const onClickProfileCard = () => {
     props.setPersonId(props.id);
   };
 
   return (
-    <Card className="ProfileCard" onClick={onClickProfileCard}>
-      <CardActionArea
-        sx={{
-          ":hover": {
-            backgroundColor: "background.primary",
-            opacity: [0.8, 0.7, 0.6],
-          },
-        }}
-      >
-        <Box className="AvatarContainer">
-          <Avatar
-            sx={avatarStyle}
-            src={props.img}
-            alt={`${props.name}_profile_pic`}
-          />
-        </Box>
-        <Box>{props.name}</Box>
-        <Box>{props.number}</Box>
-      </CardActionArea>
-    </Card>
+    <Box sx={{ opacity: 1 }} className="ProfileCard">
+      <Avatar
+        sx={avatarStyle}
+        src={props.img}
+        alt={`${props.name}_profile_pic`}
+      />
+      <Box className="ProfileInfo">
+        <Box className="ProfileName">{props.name}</Box>
+        <Box className="ProfileNumber">{props.number}</Box>
+        <Button
+          sx={buttonStyle}
+          variant="contained"
+          onClick={onClickProfileCard}
+        >
+          Ver Ficheiros
+        </Button>
+      </Box>
+    </Box>
   );
 }

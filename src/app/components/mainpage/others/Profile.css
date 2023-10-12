@@ -1,15 +1,30 @@
 .ProfileCard {
-  padding: 10px;
-  width: 120px;
-  align-items: center;
-  text-align: center;
-}
-
-.AvatarContainer {
+  width: 14.69rem;
+  height: 17.06rem;
+  background-color: white;
+  border-radius: 1.31rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.Avatar {
-  height: 50px;
+.ProfileInfo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 4rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.ProfileName {
+}
+
+.ProfileNumber {
+  color: grey;
+}
+
+.FileButton {
+  font-weight: bold;
+  background-color: cadetblue;
 }

@@ -25,14 +25,9 @@ function MembersSection() {
 
   return (
     <>
-      <div className="MembersSection">
-        <Box className="Title">
-          <h1>IPM 23/24</h1>
-        </Box>
-        <Box className="ProfileBarContainer">
-          <Grid container>{gridItems}</Grid>
-        </Box>
-      </div>
+      <Box className="MembersSection">
+        <Grid container>{gridItems}</Grid>
+      </Box>
       <FilesSection personID={personID} />
     </>
   );

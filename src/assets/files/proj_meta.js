@@ -1,5 +1,11 @@
 export const proj_profiles = [
   {
+    name: "Project",
+    id: "prj",
+    number: "23/24",
+    img: require("./project_files/logo_temp.png"),
+  },
+  {
     name: "Diogo Costa",
     id: "dc",
     number: 59893,
@@ -10,12 +16,6 @@ export const proj_profiles = [
     id: "dl",
     number: 56837,
     img: require("./members/diogo_lemos/diogo_lemos_profile.jpg"),
-  },
-  {
-    name: "Project",
-    id: "prj",
-    number: "23/24",
-    img: require("./project_files/logo_temp.png"),
   },
   {
     name: "José Trigueiro",
@@ -48,10 +48,10 @@ export const proj_files = [
     id: "tg",
     files: [
       {
-      name: "Assignment 1",
-      file: require("./members/tomas_gabriel/assign_1.pdf"),
-    },
-  ],
+        name: "Assignment 1",
+        file: require("./members/tomas_gabriel/assign_1.pdf"),
+      },
+    ],
   },
   {
     id: "prj",
