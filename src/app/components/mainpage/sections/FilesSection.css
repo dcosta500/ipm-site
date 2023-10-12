@@ -1,4 +1,6 @@
 .FilesSection {
+  height: 22.94rem;
+
+  display: flex;
   align-items: center;
-  padding-top: 20px;
 }

@@ -67,3 +67,6 @@ export const proj_files = [
     ],
   },
 ];
+
+// Other Files
+export const pdfFilesImage = require("./project_files/pdfFiles.png");
