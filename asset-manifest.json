@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ipm-site/static/css/main.0ab75824.css",
-    "main.js": "/ipm-site/static/js/main.17927a8e.js",
+    "main.css": "/ipm-site/static/css/main.bf17a029.css",
+    "main.js": "/ipm-site/static/js/main.e9be6b08.js",
     "static/js/787.cc574f91.chunk.js": "/ipm-site/static/js/787.cc574f91.chunk.js",
     "static/media/jose_profile.jpg": "/ipm-site/static/media/jose_profile.1595d526121495be27e4.jpg",
     "static/media/assign_1.pdf": "/ipm-site/static/media/assign_1.a1b72d89d1f7b183b269.pdf",
@@ -12,12 +12,12 @@
     "static/media/costa_profile.jpeg": "/ipm-site/static/media/costa_profile.a625d98b3c5bfda64d68.jpeg",
     "static/media/logo_temp.png": "/ipm-site/static/media/logo_temp.e47d727d894bd1c591cc.png",
     "index.html": "/ipm-site/index.html",
-    "main.0ab75824.css.map": "/ipm-site/static/css/main.0ab75824.css.map",
-    "main.17927a8e.js.map": "/ipm-site/static/js/main.17927a8e.js.map",
+    "main.bf17a029.css.map": "/ipm-site/static/css/main.bf17a029.css.map",
+    "main.e9be6b08.js.map": "/ipm-site/static/js/main.e9be6b08.js.map",
     "787.cc574f91.chunk.js.map": "/ipm-site/static/js/787.cc574f91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ab75824.css",
-    "static/js/main.17927a8e.js"
+    "static/css/main.bf17a029.css",
+    "static/js/main.e9be6b08.js"
   ]
 }
