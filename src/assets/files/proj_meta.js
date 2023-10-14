@@ -34,7 +34,12 @@ export const proj_profiles = [
 export const proj_files = [
   {
     id: "dc",
-    files: [],
+    files: [
+      {
+        name: "Assignment 1",
+        file: require("./members/diogo_costa/assign_1.pdf"),
+      },
+    ],
   },
   {
     id: "dl",
