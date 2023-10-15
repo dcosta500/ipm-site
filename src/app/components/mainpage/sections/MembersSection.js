@@ -7,28 +7,31 @@ import { useState } from "react";
 import { proj_profiles } from "src/assets/files/proj_meta";
 
 function MembersSection() {
-  const [personID, setPersonId] = useState("prj");
+  const [showFilesId, setShowFilesId] = useState("dc");
 
-  let gridItems = proj_profiles.map((e, i) => (
-    <Grid key={i} item xs={12 / proj_profiles.length}>
-      <Box className={"GridItem"}>
-        <Profile
-          name={e.name}
-          id={e.id}
-          number={e.number}
-          img={e.img}
-          setPersonId={setPersonId}
-        />
-      </Box>
-    </Grid>
-  ));
+  let gridItems = proj_profiles.map((e, i) => {
+    return (
+      <Grid key={i} item xs={12 / proj_profiles.length}>
+        <Box className={"GridItem"}>
+          <Profile
+            name={e.name}
+            id={e.id}
+            number={e.number}
+            img={e.img}
+            showFilesId={showFilesId}
+            setShowFilesId={setShowFilesId}
+          />
+        </Box>
+      </Grid>
+    );
+  });
 
   return (
     <>
       <Box className="MembersSection">
         <Grid container>{gridItems}</Grid>
       </Box>
-      <FilesSection personID={personID} />
+      <FilesSection personID={showFilesId} />
     </>
   );
 }

@@ -12,9 +12,9 @@ const FilesSection = (props) => {
 
   // Map found files
   let gridItems = fileArray.map((e, i) => (
-    <Grid item xs={12 / fileArray.length}>
+    <Grid item key={i} xs={2}>
       <Box className={"GridItem"}>
-        <File key={i} text={e.name} icon={<PDFIcon />} file={e.file} />
+        <File text={e.name} icon={<PDFIcon />} file={e.file} />
       </Box>
     </Grid>
   ));

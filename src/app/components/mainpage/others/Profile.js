@@ -3,6 +3,7 @@ import { Avatar, Button } from "@mui/material";
 import { Card } from "@mui/material";
 import { Box } from "@mui/material";
 import { CardActionArea } from "@mui/material";
+import { useState } from "react";
 
 // Props: id, name, number, img
 export default function Profile(props) {
@@ -25,11 +26,13 @@ export default function Profile(props) {
   };
 
   const onClickProfileCard = () => {
-    props.setPersonId(props.id);
+    props.setShowFilesId(props.id);
   };
 
+  let amISelected = props.id === props.showFilesId ? true : false;
+
   return (
-    <Box sx={{ opacity: 1 }} className="ProfileCard">
+    <Box sx={{ opacity: amISelected ? 0.3 : 1 }} className="ProfileCard">
       <Avatar
         sx={avatarStyle}
         src={props.img}
@@ -42,6 +45,7 @@ export default function Profile(props) {
           sx={buttonStyle}
           variant="contained"
           onClick={onClickProfileCard}
+          disabled={amISelected}
         >
           Ver Ficheiros
         </Button>
