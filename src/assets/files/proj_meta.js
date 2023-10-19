@@ -47,7 +47,12 @@ export const proj_files = [
   },
   {
     id: "jt",
-    files: [],
+    files: [
+      {
+        name: "Assignment 1",
+        file: require("./members/jose_trigueiro/assign_1.pdf"),
+      },
+    ],
   },
   {
     id: "tg",
