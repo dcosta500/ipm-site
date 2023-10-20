@@ -43,7 +43,12 @@ export const proj_files = [
   },
   {
     id: "dl",
-    files: [],
+    files: [
+      {
+        name: "Assignment 1",
+        file: require("./members/diogo_lemos/assign_1.pdf"),
+      },
+    ],
   },
   {
     id: "jt",
