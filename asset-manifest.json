@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ipm-site/static/css/main.bf17a029.css",
-    "main.js": "/ipm-site/static/js/main.d93208e6.js",
+    "main.js": "/ipm-site/static/js/main.3492f88a.js",
     "static/js/787.cc574f91.chunk.js": "/ipm-site/static/js/787.cc574f91.chunk.js",
     "static/media/assign_1.pdf": "/ipm-site/static/media/assign_1.0c21bd48754a3941975f.pdf",
     "static/media/jose_profile.jpg": "/ipm-site/static/media/jose_profile.1595d526121495be27e4.jpg",
@@ -13,11 +13,11 @@
     "static/media/logo_temp.png": "/ipm-site/static/media/logo_temp.e47d727d894bd1c591cc.png",
     "index.html": "/ipm-site/index.html",
     "main.bf17a029.css.map": "/ipm-site/static/css/main.bf17a029.css.map",
-    "main.d93208e6.js.map": "/ipm-site/static/js/main.d93208e6.js.map",
+    "main.3492f88a.js.map": "/ipm-site/static/js/main.3492f88a.js.map",
     "787.cc574f91.chunk.js.map": "/ipm-site/static/js/787.cc574f91.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf17a029.css",
-    "static/js/main.d93208e6.js"
+    "static/js/main.3492f88a.js"
   ]
 }
