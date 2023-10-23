@@ -7,7 +7,7 @@ import { useState } from "react";
 import { proj_profiles } from "src/assets/files/proj_meta";
 
 function MembersSection() {
-  const [showFilesId, setShowFilesId] = useState("dc");
+  const [showFilesId, setShowFilesId] = useState("prj");
 
   let gridItems = proj_profiles.map((e, i) => {
     return (

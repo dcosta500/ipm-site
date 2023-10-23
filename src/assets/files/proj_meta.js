@@ -72,12 +72,16 @@ export const proj_files = [
     id: "prj",
     files: [
       {
-        name: "G_10_stage1",
+        name: "Stage 1",
         file: require("./project_files/G_10_stage1.pdf"),
       },
       {
-        name: "G_10_stage2",
+        name: "Stage 2",
         file: require("./project_files/G_10_stage2.pdf"),
+      },
+      {
+        name: "Stage 3",
+        file: require("./project_files/G_10_stage3.pdf"),
       },
     ],
   },
