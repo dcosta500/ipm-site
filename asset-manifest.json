@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/ipm-site/static/css/main.bf17a029.css",
-    "main.js": "/ipm-site/static/js/main.a3c77cbf.js",
+    "main.js": "/ipm-site/static/js/main.e256511e.js",
     "static/js/787.cc574f91.chunk.js": "/ipm-site/static/js/787.cc574f91.chunk.js",
     "static/media/assign_1.pdf": "/ipm-site/static/media/assign_1.0c21bd48754a3941975f.pdf",
     "static/media/G_10_stage3.pdf": "/ipm-site/static/media/G_10_stage3.0074b068ccc35561b0ac.pdf",
     "static/media/jose_profile.jpg": "/ipm-site/static/media/jose_profile.1595d526121495be27e4.jpg",
+    "static/media/G_10_stage4.pdf": "/ipm-site/static/media/G_10_stage4.083f40f92f988f8e19b2.pdf",
     "static/media/G_10_stage2.pdf": "/ipm-site/static/media/G_10_stage2.2eb8e54eda19b94d9dbf.pdf",
     "static/media/G_10_stage1.pdf": "/ipm-site/static/media/G_10_stage1.41679b6aa07af841a134.pdf",
     "static/media/diogo_lemos_profile.jpg": "/ipm-site/static/media/diogo_lemos_profile.e97a7569e77787b64f4b.jpg",
@@ -14,11 +15,11 @@
     "static/media/logo_temp.png": "/ipm-site/static/media/logo_temp.e47d727d894bd1c591cc.png",
     "index.html": "/ipm-site/index.html",
     "main.bf17a029.css.map": "/ipm-site/static/css/main.bf17a029.css.map",
-    "main.a3c77cbf.js.map": "/ipm-site/static/js/main.a3c77cbf.js.map",
+    "main.e256511e.js.map": "/ipm-site/static/js/main.e256511e.js.map",
     "787.cc574f91.chunk.js.map": "/ipm-site/static/js/787.cc574f91.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf17a029.css",
-    "static/js/main.a3c77cbf.js"
+    "static/js/main.e256511e.js"
   ]
 }
