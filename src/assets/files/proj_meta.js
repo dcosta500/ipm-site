@@ -83,6 +83,14 @@ export const proj_files = [
         name: "Stage 3",
         file: require("./project_files/G_10_stage3.pdf"),
       },
+      {
+        name: "Stage 4",
+        file: require("./project_files/G_10_stage4.pdf"),
+      },
+      {
+        name: "Stage 5",
+        file: require("./project_files/G_10_stage5.pdf"),
+      },
     ],
   },
 ];
