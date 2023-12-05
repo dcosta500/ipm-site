@@ -91,6 +91,10 @@ export const proj_files = [
         name: "Stage 5",
         file: require("./project_files/G_10_stage5.pdf"),
       },
+      {
+        name: "Stage 6",
+        file: require("./project_files/G_10_stage6.pdf"),
+      },
     ],
   },
 ];
